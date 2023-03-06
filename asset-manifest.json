@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/multilingual/static/css/main.7aa9318f.css",
+    "main.js": "/multilingual/static/js/main.abfa9797.js",
+    "index.html": "/multilingual/index.html",
+    "main.7aa9318f.css.map": "/multilingual/static/css/main.7aa9318f.css.map",
+    "main.abfa9797.js.map": "/multilingual/static/js/main.abfa9797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aa9318f.css",
+    "static/js/main.abfa9797.js"
+  ]
+}
