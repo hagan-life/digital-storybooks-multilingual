@@ -17,7 +17,7 @@ function Max() {
 
       <div>Hello!</div>
       <div>Welcome to Digital Storybooks.</div>
-      <div id="say">Hello! Welcome to Digital Storybooks.</div>
+      <div id="say">Hello William! Welcome to Digital Storybooks.</div>
       <Talkie />
 
     </div>
