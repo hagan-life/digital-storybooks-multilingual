@@ -4,6 +4,7 @@ import Landing from './components/Landing'
 import Login from './components/Login'
 import Library from './components/Library'
 import Max from './components/Max'
+import TestBookTemplate from './components/TestBookTemplate'
 import FourOFour from './components/FourOFour'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             {/* Protected paths will follow, currently auth not Enabled */}
             <Route path="/library" element={ <Library /> } />
             <Route path="/max" element={ <Max /> } />
+            <Route path="/testbooktemplate" element={ <TestBookTemplate /> } />
 
             <Route path="*" element={<FourOFour />} />
 
