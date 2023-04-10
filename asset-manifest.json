@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/multilingual/static/css/main.238a64a6.css",
-    "main.js": "/multilingual/static/js/main.bfaed5b9.js",
+    "main.css": "/multilingual/static/css/main.b659b9ec.css",
+    "main.js": "/multilingual/static/js/main.62ae6f21.js",
     "static/media/placeholder_image_right.png": "/multilingual/static/media/placeholder_image_right.2684e36930b53bf79b98.png",
     "static/media/placeholder_image_left.png": "/multilingual/static/media/placeholder_image_left.f1b738496e8a2f7d9520.png",
     "static/media/cover_max.png": "/multilingual/static/media/cover_max.d1a0c91ce3517dbd7beb.png",
@@ -11,11 +11,11 @@
     "static/media/flourish-bottom.svg": "/multilingual/static/media/flourish-bottom.aae2a1b2bedbf3c32677.svg",
     "static/media/flourish-top.svg": "/multilingual/static/media/flourish-top.17dc6b15147dc6a6c942.svg",
     "index.html": "/multilingual/index.html",
-    "main.238a64a6.css.map": "/multilingual/static/css/main.238a64a6.css.map",
-    "main.bfaed5b9.js.map": "/multilingual/static/js/main.bfaed5b9.js.map"
+    "main.b659b9ec.css.map": "/multilingual/static/css/main.b659b9ec.css.map",
+    "main.62ae6f21.js.map": "/multilingual/static/js/main.62ae6f21.js.map"
   },
   "entrypoints": [
-    "static/css/main.238a64a6.css",
-    "static/js/main.bfaed5b9.js"
+    "static/css/main.b659b9ec.css",
+    "static/js/main.62ae6f21.js"
   ]
 }
