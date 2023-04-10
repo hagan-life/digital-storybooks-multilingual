@@ -2,9 +2,11 @@ import {useState} from 'react'
 import {Link} from 'react-router-dom'
 import ImageLeft from './ImageLeft'
 import ImageRight from './ImageRight'
+import Language from './Language'
 /*import Talkie from './Talkie'*/
+
 import home from '../images/home.png'
-import languages from '../images/lang_light.png'
+import languageIcon from '../images/lang_light.png'
 import image1 from '../images/testbooktemplate/placeholder_image_left.png'
 import image2 from '../images/testbooktemplate/placeholder_image_right.png'
 
@@ -16,6 +18,8 @@ function TestBookTemplate() {
   let pageElements = null
   /* say only needed below if moving page navigation to full page */
   /* let say = null */
+
+
 
   switch(page){
     case 0:
@@ -57,8 +61,8 @@ function TestBookTemplate() {
       case 101: /* Spanish */
       pageElements = 
       <ImageLeft image={image1} 
-                 text='Once upon a time, there was a little bird named Max.' 
-                 say='Once upon a time, there was a little bird named Max.'
+                 text='Había una vez un pajarito llamado Max.' 
+                 say='Había una vez un pajarito llamado Max.'
                  nextPage={nextPage}
                  previousPage={previousPage}
       />
@@ -66,11 +70,15 @@ function TestBookTemplate() {
     case 102:
       pageElements = 
       <ImageRight image={image2} 
-                  text='Max loved to fly high in the sky and explore the world around him.' 
-                  say='Max loved to fly high in the sky and explore the world around him.'
+                  text='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.' 
+                  say='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.'
                   nextPage={nextPage}
                   previousPage={previousPage}
       />
+      break
+    case 'languages':
+      const translated = [{language: 'english', page: 1}, {language: 'spanish', page: 101}]
+      pageElements = <Language languages={translated} />
       break
     default:
       pageElements = "Return to Library"
@@ -86,7 +94,12 @@ function TestBookTemplate() {
             </Link>
           </li>
           <li>
-            <img className="languages" src={languages} alt="Language icon" />
+            <img 
+              className="language-icon" 
+              src={languageIcon} 
+              alt="Language icon" 
+              onClick={() => setPage('languages')}
+            />
           </li>
         </ul>
       </nav>

@@ -12,9 +12,9 @@ function ImageLeft({image, text, say, nextPage, previousPage}) {
         <div>{text}</div>
         <hr className="flourish bottom" />
         <footer>
-          <button className="left-quarter-circle" onClick={previousPage}>LLL</button>
+          <button className="left-quarter-circle" onClick={previousPage}><span>&lt;</span></button>
           <Talkie />
-          <button className="right-quarter-circle" onClick={nextPage}>RRR</button>
+          <button className="right-quarter-circle" onClick={nextPage}><span>&gt;</span></button>
         </footer>
       </div>
       <div id="say">{say}</div>

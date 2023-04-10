@@ -62,7 +62,7 @@ li{
   padding:0 0.5rem 0 0;
 }
 
-.navbar img.languages{
+.navbar img.language-icon{
   width: 1.5rem;
   height: 1.5rem;
   padding: 0 0.5rem 0 0;
@@ -461,6 +461,9 @@ footer{
   background-color:rgba(196,196,196,0.5);
   border:none;
   cursor:pointer;
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-end;
 }
 
 .left-quarter-circle{
@@ -470,4 +473,15 @@ footer{
   background-color:rgba(196,196,196,0.5);
   border:none;
   cursor:pointer;
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-start;
 }
+
+.left-quarter-circle span, .right-quarter-circle span{
+  font-size:calc(2rem + 3vw);
+  padding:0 1vw 0 1vw;
+  color:#333;
+}
+
+
