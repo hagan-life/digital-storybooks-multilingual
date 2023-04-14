@@ -81,6 +81,21 @@ li{
   color:#fff;
 }
 
+.navbar li button.cancel-language{
+  border:1px solid #000;
+  border-radius:0.25rem;
+  padding:0.5rem 1.5rem;
+  transition:0.25s;
+  font-weight:500;
+  font-size:1rem;
+  background-color:#000;
+  color:#fff;
+}
+.navbar li button.cancel-language:hover{
+  background-color:#fff;
+  color:#000;
+}
+
 .landing{
   display:flex;
   height:100vh;
@@ -483,5 +498,34 @@ footer{
   padding:0 1vw 0 1vw;
   color:#333;
 }
+
+.language{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  font-size:calc(2rem + 3vw);
+  color:#333;
+  margin:2rem;
+}
+
+
+.language div{
+  padding:0.5rem 0;
+  margin:1rem;
+  box-shadow:0 0 1rem #777;
+  border-radius:0.25rem;
+  height:calc(20rem + 3vw);
+  width:calc(20rem + 3vw);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.language div:hover{
+  background-color:dodgerblue;
+}
+
+
 
 

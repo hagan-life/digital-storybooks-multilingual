@@ -1,5 +1,6 @@
 import {useState} from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Navigate} from 'react-router-dom'
+
 import ImageLeft from './ImageLeft'
 import ImageRight from './ImageRight'
 import Language from './Language'
@@ -12,6 +13,7 @@ import image2 from '../images/testbooktemplate/placeholder_image_right.png'
 
 
 function TestBookTemplate() {
+  const [changeLanguage, setChangeLanguage] = useState(false)
   const [page, setPage] = useState(1)
   const nextPage = () => { setPage(page + 1) }
   const previousPage = () => { setPage(page - 1) }
@@ -19,69 +21,78 @@ function TestBookTemplate() {
   /* say only needed below if moving page navigation to full page */
   /* let say = null */
 
+  // Show language page or page elements
+  if(changeLanguage){
+    const translated = [{language: 'english', pageModifier: 0}, {language: 'spanish', pageModifier: 100}]
+    pageElements = 
+      <Language 
+        languages={translated} 
+        currentPage={page} 
+        passSetPage={setPage} 
+        passSetChangeLanguage={setChangeLanguage}
+      />
 
+  }else{
 
-  switch(page){
-    case 0:
-      /* back to Library */
-      pageElements = "Return to Library"
-      break
-    case 1:
-      pageElements = 
-      <ImageLeft image={image1} 
-                 text='Once upon a time, there was a little bird named Max.' 
-                 say='Once upon a time, there was a little bird named Max.'
-                 nextPage={nextPage}
-                 previousPage={previousPage}
-      />
-      /*say = 'Once upon a time, there was a little bird named Max.'*/
-      break
-    case 2:
-      pageElements = 
-      <ImageRight image={image2} 
-                  text='Max loved to fly high in the sky and explore the world around him.' 
-                  say='Max loved to fly high in the sky and explore the world around him.'
+    switch(page){
+      case 0:
+        /* back to Library */
+        pageElements = <Navigate to="/library" />
+        break
+      case 1:
+        pageElements = 
+        <ImageLeft image={image1} 
+                  text='Once upon a time, there was a little bird named Max.' 
+                  say='Once upon a time, there was a little bird named Max.'
                   nextPage={nextPage}
                   previousPage={previousPage}
-      />
-      break
-    case 3:
-      pageElements = 
-      <ImageLeft image={image1} 
-                  text='One day, Max decided to fly to a nearby tree to rest his tired wings.' 
-                  say='One day, Max decided to fly to a nearby tree to rest his tired wings.'
+        />
+        /*say = 'Once upon a time, there was a little bird named Max.'*/
+        break
+      case 2:
+        pageElements = 
+        <ImageRight image={image2} 
+                    text='Max loved to fly high in the sky and explore the world around him.' 
+                    say='Max loved to fly high in the sky and explore the world around him.'
+                    nextPage={nextPage}
+                    previousPage={previousPage}
+        />
+        break
+      case 3:
+        pageElements = 
+        <ImageLeft image={image1} 
+                    text='One day, Max decided to fly to a nearby tree to rest his tired wings.' 
+                    say='One day, Max decided to fly to a nearby tree to rest his tired wings.'
+                    nextPage={nextPage}
+                    previousPage={previousPage}
+        />
+        break
+      case 100: 
+        /* back to Library */
+        pageElements = <Navigate to="/library" />
+        break
+      case 101: /* Spanish case 101*/
+        pageElements = 
+        <ImageLeft image={image1} 
+                  text='Había una vez un pajarito llamado Max.' 
+                  say='Había una vez un pajarito llamado Max.'
                   nextPage={nextPage}
                   previousPage={previousPage}
-      />
-      break
-    case 100: 
-      /* back to Library */
-      pageElements = "Return to Library"
-      break
-      case 101: /* Spanish */
-      pageElements = 
-      <ImageLeft image={image1} 
-                 text='Había una vez un pajarito llamado Max.' 
-                 say='Había una vez un pajarito llamado Max.'
-                 nextPage={nextPage}
-                 previousPage={previousPage}
-      />
-      break
-    case 102:
-      pageElements = 
-      <ImageRight image={image2} 
-                  text='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.' 
-                  say='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.'
-                  nextPage={nextPage}
-                  previousPage={previousPage}
-      />
-      break
-    case 'languages':
-      const translated = [{language: 'english', page: 1}, {language: 'spanish', page: 101}]
-      pageElements = <Language languages={translated} />
-      break
-    default:
-      pageElements = "Return to Library"
+        />
+        break
+      case 102: /* Spanish case 102*/
+        pageElements = 
+        <ImageRight image={image2} 
+                    text='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.' 
+                    say='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.'
+                    nextPage={nextPage}
+                    previousPage={previousPage}
+        />
+        break
+
+      default:
+        pageElements = <Navigate to="/library" />
+    }
   }
 
   return(
@@ -94,12 +105,19 @@ function TestBookTemplate() {
             </Link>
           </li>
           <li>
-            <img 
+          {changeLanguage ?
+            (<button 
+                className="cancel-language" 
+                onClick={() => setChangeLanguage(false)}>
+              Cancel
+            </button>) :
+            (<img 
               className="language-icon" 
               src={languageIcon} 
               alt="Language icon" 
-              onClick={() => setPage('languages')}
-            />
+              onClick={() => setChangeLanguage(true)}
+            />)
+          }
           </li>
         </ul>
       </nav>
