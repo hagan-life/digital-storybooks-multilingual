@@ -68,6 +68,7 @@ li{
   padding: 0 0.5rem 0 0;
 }
 
+
 .navbar li.login-button{
   border:1px solid #000;
   border-radius:0.25rem;
@@ -95,6 +96,7 @@ li{
   background-color:#fff;
   color:#000;
 }
+
 
 .landing{
   display:flex;
@@ -328,13 +330,30 @@ li{
   gap:3rem 3rem;
   background-color:#eee;
 }
-
 .book{
   width:170px;
   height:250px;
-  background:#fff;
   border-radius:0.25rem;
-  box-shadow:0 0 1rem #000;
+  box-shadow: 0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 0.5);
+  background: linear-gradient(to right, rgb(60, 13, 20) 3px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.25) 7px, rgba(255, 255, 255, 0.25) 10px, transparent 12px, transparent 16px, rgba(255, 255, 255, 0.25) 17px, transparent 22px);
+  position:relative;
+}
+
+.cover{
+  width:170px;
+  height:250px;
+  border-radius:0.25rem;
+  object-fit:cover;
+  position:absolute;
+}
+
+/*
+.book{
+  width:170px;
+  height:250px;
+  background: linear-gradient(to right, rgb(60, 13, 20) 3px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.25) 7px, rgba(255, 255, 255, 0.25) 10px, transparent 12px, transparent 16px, rgba(255, 255, 255, 0.25) 17px, transparent 22px);
+  border-radius:0.25rem;
+  box-shadow: 0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 .cover{
@@ -343,7 +362,7 @@ li{
   border-radius:0.25rem;
   object-fit:cover;
 }
-
+*/
 .max{
   flex:5; /* 1:5 proportion built from parent flex */
   display:flex;
@@ -400,41 +419,80 @@ li{
 .image-right{
   display:flex;
   height:100dvh;
-  flex-direction:row-reverse;
+  /*flex-direction:row-reverse;*/
 }
 
-.background{
-  flex:1;
+.image-full{
+  display:grid;
+  grid-template-rows:75% 25%;
+  height:100dvh;
+}
+
+.background-full{
   display:flex;
 }
 
-.left{
+.story-text-full{
+  background-color:#dedede;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.text-full{
+  font-size:calc(3vh + 1vw);
+  display:flex;
+  flex-wrap:wrap;
+  max-width:50%;
+  text-align:center;
+}
+
+.story-text-full .player{
+  display:flex;
+}
+
+.story-text-full .player img{
+  object-fit:contain;
+  height:calc(3rem + 3vw);
+}
+
+.full{
   flex:1;
   object-fit:cover;
-  max-width:100%;
+  width:100vw;
+}
+
+.left{
+  flex:auto;
+  object-fit:cover;
 }
 
 .right{
-  flex:1;
+  flex:auto;
   object-fit:cover;
-  max-width:100%;
+}
+
+.background{
+  width:50%;
+  display:flex;
+  justify-content:center;
+  z-index:-1;
 }
 
 .story-text{
-  position:relative;
-  flex:1;
+  width:50%;
   background-color:#dedede;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  /*font-size:3rem;*/
-  font-size:4vw;
-  padding:2vw;
+  /*font-size:4vw;*/
+  font-size:calc(2dvh + 2vw);
 }
 
 .story-text > div{
   text-align:center;
+  padding:0 2vw;
 
   /*
   text-align:justify;
@@ -448,6 +506,7 @@ li{
   width:50%;
   height:2rem;
   background-repeat:no-repeat;
+  background-position:center;
   border:none;
 }
 
@@ -513,18 +572,165 @@ footer{
 .language div{
   padding:0.5rem 0;
   margin:1rem;
-  box-shadow:0 0 1rem #777;
-  border-radius:0.25rem;
+  box-shadow:0 0 0.33rem #777;
+  border-radius:0.5rem;
   height:calc(20rem + 3vw);
   width:calc(20rem + 3vw);
   display:flex;
   justify-content:center;
   align-items:center;
+  text-align:center;
 }
 
 .language div:hover{
   background-color:dodgerblue;
 }
+
+
+.nav-left{
+  display:flex;
+  flex-direction:column;
+  height:100dvh;
+  background-image: linear-gradient(to left, transparent 6px, #E4E0CE 8px, transparent 8px, transparent 12px, #E4E0CE 12px, transparent 14px, transparent 18px,#E4E0CE 18px, transparent 20px, transparent 24px, #E4E0CE 24px, transparent 26px, transparent 30px, #E4E0CE 30px, transparent 32px, transparent 36px, #E4E0CE 36px, transparent 38px, transparent 42px, #E4E0CE 42px, transparent 44px, transparent 48px, #E4E0CE 48px, transparent 50px); 
+}
+
+.nav-right{
+  display:flex;
+  flex-direction:column;
+  height:100dvh;
+  box-shadow: inset 0px 0px 6px 0px #E4E0CE;
+  background-image: linear-gradient(to right, transparent 6px, #E4E0CE 8px, transparent 8px, transparent 12px, #E4E0CE 12px, transparent 14px, transparent 18px,#E4E0CE 18px, transparent 20px, transparent 24px, #E4E0CE 24px, transparent 26px, transparent 30px, #E4E0CE 30px, transparent 32px, transparent 36px, #E4E0CE 36px, transparent 38px, transparent 42px, #E4E0CE 42px, transparent 44px, transparent 48px, #E4E0CE 48px, transparent 50px); 
+}
+
+.nav-top{
+  flex:1;
+}
+
+.nav-bottom{
+  display:flex;
+  align-items:center;
+  flex:5;
+}
+
+.testbooktemplate .nav-right .nav-top{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.testbooktemplate .nav-left .nav-top{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.testbooktemplate .nav-left .nav-top img{
+  width:1.75rem;
+  height:1.75rem;
+}
+
+.testbooktemplate .nav-right .nav-top img{
+  width:2rem;
+  height:2rem;
+}
+
+.nav-elements{
+  height:100dvh;
+}
+
+.home, .language-icon, .point-right, .point-left{
+  height:2rem;
+  width:2rem;
+}
+
+.fixed-home{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4rem;
+  background-color: rgba(255,255,255,0.8);
+  padding: 2rem;
+  /* backdrop-filter: blur(0.5rem); */
+  cursor:pointer;
+}
+
+.fixed-language{
+  position:fixed;
+  top:0;
+  right:0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4rem;
+  background-color: rgba(255,255,255,0.8);
+  padding: 2rem;
+  /* backdrop-filter: blur(0.5rem); */
+  cursor:pointer;
+}
+
+.fixed-next{
+  position:fixed;
+  bottom:0;
+  right:0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4rem;
+  background-color: rgba(255,255,255,0.8);
+  padding: 2rem;
+  cursor:pointer;
+}
+
+.fixed-previous{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4rem;
+  background-color: rgba(255,255,255,0.8);
+  padding: 2rem;
+  cursor:pointer;
+}
+
+button.cancel-language{
+  position:fixed;
+  border:1px solid #000;
+  border-radius:0.25rem;
+  padding:0.5rem 1.5rem;
+  transition:0.25s;
+  font-weight:500;
+  font-size:1rem;
+  background-color:#fff;
+  color:#000;
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+}
+button.cancel-language:hover{
+  background-color:#000;
+  color:#fff;
+}
+/*
+.player{
+  position:fixed;
+  bottom:2rem;
+  left:50%;
+}
+*/
+.player{
+  display:flex;
+}
+
+.player img{
+  object-fit:contain;
+  height:calc(3rem + 3vw);
+  padding-bottom:1rem;
+}
+
+
+
+
 
 
 

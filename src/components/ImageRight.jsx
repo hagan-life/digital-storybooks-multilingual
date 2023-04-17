@@ -1,22 +1,17 @@
-import Talkie from './Talkie'
+import Speak from './Speak'
 
-function ImageRight({image, text, say, nextPage, previousPage}) {
+function ImageRight({image, text, spoken}) {
   return(
     <div className="image-right">
-      <div className="background">
-        <img className="left" src={image} alt="Left page" />
-      </div>
       <div className="story-text">
-        <hr className="flourish top" />
+        <div className="flourish top"></div>
         <div>{text}</div>
-        <hr className="flourish bottom" />
-        <footer>
-          <button className="left-quarter-circle"  onClick={previousPage}><span>&lt;</span></button>
-          <Talkie />
-          <button className="right-quarter-circle"  onClick={nextPage}><span>&gt;</span></button>
-      </footer>
+        <div className="flourish bottom"></div>
+        <Speak audio={spoken} />
       </div>
-      <div id="say">{say}</div>
+      <div className="background">
+        <img className="right" src={image} alt="Right page" />
+      </div>
     </div>
   )
 }

@@ -1,6 +1,6 @@
-import Talkie from './Talkie'
+import Speak from './Speak'
 
-function ImageLeft({image, text, say, nextPage, previousPage}) {
+function ImageLeft({image, text, spoken}) {
   return(
     <div className="image-left">
 
@@ -11,13 +11,8 @@ function ImageLeft({image, text, say, nextPage, previousPage}) {
         <hr className="flourish top" />
         <div>{text}</div>
         <hr className="flourish bottom" />
-        <footer>
-          <button className="left-quarter-circle" onClick={previousPage}><span>&lt;</span></button>
-          <Talkie />
-          <button className="right-quarter-circle" onClick={nextPage}><span>&gt;</span></button>
-        </footer>
+        <Speak audio={spoken} />
       </div>
-      <div id="say">{say}</div>
     </div>
   )
 }

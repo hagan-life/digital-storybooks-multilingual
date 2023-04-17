@@ -36,22 +36,27 @@ function Library() {
 
         <div className="shelves">
           <Link to="/max">
+            <img className="cover" src={cover_max} alt="Max book cover placeholder" />
             <div className="book">
-              <img className="cover" src={cover_max} alt="Max book cover placeholder" />
             </div>
+            
           </Link>
 
           <Link to="/testbooktemplate">
-            <div className="book">
-              <img className="cover" src={cover_test} alt="Test book cover placeholder" />
+            <img className="cover" src={cover_test} alt="Test book cover placeholder" />
+            <div className="book">  
             </div>
           </Link>
 
-          <div className="book">
-            book3<br />
-            placeholder<br />
-            non-interactive
-          </div>
+          <Link to="/library">
+            <img className="cover" src="" alt="Placeholder" />
+            <div className="book">
+              book3<br />
+              placeholder<br />
+              non-interactive<br />
+             </div>
+          </Link>
+
         </div>
 
       </div>

@@ -1,0 +1,425 @@
+0: SpeechSynthesisVoice {voiceURI: 'Samantha', name: 'Samantha', lang: 'en-US', localService: true, default: true}
+1: SpeechSynthesisVoice {voiceURI: 'Albert', name: 'Albert', lang: 'en-US', localService: true, default: false}
+2
+: 
+SpeechSynthesisVoice {voiceURI: 'Alice', name: 'Alice', lang: 'it-IT', localService: true, default: false}
+3
+: 
+SpeechSynthesisVoice {voiceURI: 'Alva', name: 'Alva', lang: 'sv-SE', localService: true, default: false}
+4
+: 
+SpeechSynthesisVoice {voiceURI: 'Amélie', name: 'Amélie', lang: 'fr-CA', localService: true, default: false}
+5
+: 
+SpeechSynthesisVoice {voiceURI: 'Amira', name: 'Amira', lang: 'ms-MY', localService: true, default: false}
+6
+: 
+SpeechSynthesisVoice {voiceURI: 'Anna', name: 'Anna', lang: 'de-DE', localService: true, default: false}
+7
+: 
+SpeechSynthesisVoice {voiceURI: 'Bad News', name: 'Bad News', lang: 'en-US', localService: true, default: false}
+8
+: 
+SpeechSynthesisVoice {voiceURI: 'Bahh', name: 'Bahh', lang: 'en-US', localService: true, default: false}
+9
+: 
+SpeechSynthesisVoice {voiceURI: 'Bells', name: 'Bells', lang: 'en-US', localService: true, default: false}
+10
+: 
+SpeechSynthesisVoice {voiceURI: 'Boing', name: 'Boing', lang: 'en-US', localService: true, default: false}
+11
+: 
+SpeechSynthesisVoice {voiceURI: 'Bubbles', name: 'Bubbles', lang: 'en-US', localService: true, default: false}
+12
+: 
+SpeechSynthesisVoice {voiceURI: 'Carmit', name: 'Carmit', lang: 'he-IL', localService: true, default: false}
+13
+: 
+SpeechSynthesisVoice {voiceURI: 'Cellos', name: 'Cellos', lang: 'en-US', localService: true, default: false}
+14
+: 
+SpeechSynthesisVoice {voiceURI: 'Damayanti', name: 'Damayanti', lang: 'id-ID', localService: true, default: false}
+15
+: 
+SpeechSynthesisVoice {voiceURI: 'Daniel', name: 'Daniel', lang: 'en-GB', localService: true, default: false}
+16
+: 
+SpeechSynthesisVoice {voiceURI: 'Daria', name: 'Daria', lang: 'bg-BG', localService: true, default: false}
+17
+: 
+SpeechSynthesisVoice {voiceURI: 'Wobble', name: 'Wobble', lang: 'en-US', localService: true, default: false}
+18
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (German (Germany))', name: 'Eddy (German (Germany))', lang: 'de-DE', localService: true, default: false}
+19
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (English (UK))', name: 'Eddy (English (UK))', lang: 'en-GB', localService: true, default: false}
+20
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (English (US))', name: 'Eddy (English (US))', lang: 'en-US', localService: true, default: false}
+21
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (Spanish (Spain))', name: 'Eddy (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+22
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (Spanish (Mexico))', name: 'Eddy (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+23
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (Finnish (Finland))', name: 'Eddy (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+24
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (French (Canada))', name: 'Eddy (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+25
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (French (France))', name: 'Eddy (French (France))', lang: 'fr-FR', localService: true, default: false}
+26
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (Italian (Italy))', name: 'Eddy (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+27
+: 
+SpeechSynthesisVoice {voiceURI: 'Eddy (Portuguese (Brazil))', name: 'Eddy (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+28
+: 
+SpeechSynthesisVoice {voiceURI: 'Ellen', name: 'Ellen', lang: 'nl-BE', localService: true, default: false}
+29
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (German (Germany))', name: 'Flo (German (Germany))', lang: 'de-DE', localService: true, default: false}
+30
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (English (UK))', name: 'Flo (English (UK))', lang: 'en-GB', localService: true, default: false}
+31
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (English (US))', name: 'Flo (English (US))', lang: 'en-US', localService: true, default: false}
+32
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (Spanish (Spain))', name: 'Flo (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+33
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (Spanish (Mexico))', name: 'Flo (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+34
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (Finnish (Finland))', name: 'Flo (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+35
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (French (Canada))', name: 'Flo (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+36
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (French (France))', name: 'Flo (French (France))', lang: 'fr-FR', localService: true, default: false}
+37
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (Italian (Italy))', name: 'Flo (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+38
+: 
+SpeechSynthesisVoice {voiceURI: 'Flo (Portuguese (Brazil))', name: 'Flo (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+39
+: 
+SpeechSynthesisVoice {voiceURI: 'Fred', name: 'Fred', lang: 'en-US', localService: true, default: false}
+40
+: 
+SpeechSynthesisVoice {voiceURI: 'Good News', name: 'Good News', lang: 'en-US', localService: true, default: false}
+41
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (German (Germany))', name: 'Grandma (German (Germany))', lang: 'de-DE', localService: true, default: false}
+42
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (English (UK))', name: 'Grandma (English (UK))', lang: 'en-GB', localService: true, default: false}
+43
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (English (US))', name: 'Grandma (English (US))', lang: 'en-US', localService: true, default: false}
+44
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (Spanish (Spain))', name: 'Grandma (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+45
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (Spanish (Mexico))', name: 'Grandma (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+46
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (Finnish (Finland))', name: 'Grandma (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+47
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (French (Canada))', name: 'Grandma (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+48
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (French (France))', name: 'Grandma (French (France))', lang: 'fr-FR', localService: true, default: false}
+49
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (Italian (Italy))', name: 'Grandma (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+50
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandma (Portuguese (Brazil))', name: 'Grandma (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+51
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (German (Germany))', name: 'Grandpa (German (Germany))', lang: 'de-DE', localService: true, default: false}
+52
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (English (UK))', name: 'Grandpa (English (UK))', lang: 'en-GB', localService: true, default: false}
+53
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (English (US))', name: 'Grandpa (English (US))', lang: 'en-US', localService: true, default: false}
+54
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (Spanish (Spain))', name: 'Grandpa (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+55
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (Spanish (Mexico))', name: 'Grandpa (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+56
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (Finnish (Finland))', name: 'Grandpa (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+57
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (French (Canada))', name: 'Grandpa (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+58
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (French (France))', name: 'Grandpa (French (France))', lang: 'fr-FR', localService: true, default: false}
+59
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (Italian (Italy))', name: 'Grandpa (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+60
+: 
+SpeechSynthesisVoice {voiceURI: 'Grandpa (Portuguese (Brazil))', name: 'Grandpa (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+61
+: 
+SpeechSynthesisVoice {voiceURI: 'Jester', name: 'Jester', lang: 'en-US', localService: true, default: false}
+62
+: 
+SpeechSynthesisVoice {voiceURI: 'Ioana', name: 'Ioana', lang: 'ro-RO', localService: true, default: false}
+63
+: 
+SpeechSynthesisVoice {voiceURI: 'Jacques', name: 'Jacques', lang: 'fr-FR', localService: true, default: false}
+64
+: 
+SpeechSynthesisVoice {voiceURI: 'Joana', name: 'Joana', lang: 'pt-PT', localService: true, default: false}
+65
+: 
+SpeechSynthesisVoice {voiceURI: 'Junior', name: 'Junior', lang: 'en-US', localService: true, default: false}
+66
+: 
+SpeechSynthesisVoice {voiceURI: 'Kanya', name: 'Kanya', lang: 'th-TH', localService: true, default: false}
+67
+: 
+SpeechSynthesisVoice {voiceURI: 'Karen', name: 'Karen', lang: 'en-AU', localService: true, default: false}
+68
+: 
+SpeechSynthesisVoice {voiceURI: 'Kathy', name: 'Kathy', lang: 'en-US', localService: true, default: false}
+69
+: 
+SpeechSynthesisVoice {voiceURI: 'Kyoko', name: 'Kyoko', lang: 'ja-JP', localService: true, default: false}
+70
+: 
+SpeechSynthesisVoice {voiceURI: 'Lana', name: 'Lana', lang: 'hr-HR', localService: true, default: false}
+71
+: 
+SpeechSynthesisVoice {voiceURI: 'Laura', name: 'Laura', lang: 'sk-SK', localService: true, default: false}
+72
+: 
+SpeechSynthesisVoice {voiceURI: 'Lekha', name: 'Lekha', lang: 'hi-IN', localService: true, default: false}
+73
+: 
+SpeechSynthesisVoice {voiceURI: 'Lesya', name: 'Lesya', lang: 'uk-UA', localService: true, default: false}
+74
+: 
+SpeechSynthesisVoice {voiceURI: 'Linh', name: 'Linh', lang: 'vi-VN', localService: true, default: false}
+75
+: 
+SpeechSynthesisVoice {voiceURI: 'Luciana', name: 'Luciana', lang: 'pt-BR', localService: true, default: false}
+76
+: 
+SpeechSynthesisVoice {voiceURI: 'Majed', name: 'Majed', lang: 'ar-001', localService: true, default: false}
+77
+: 
+SpeechSynthesisVoice {voiceURI: 'Tünde', name: 'Tünde', lang: 'hu-HU', localService: true, default: false}
+78
+: 
+SpeechSynthesisVoice {voiceURI: 'Meijia', name: 'Meijia', lang: 'zh-TW', localService: true, default: false}
+79
+: 
+SpeechSynthesisVoice {voiceURI: 'Melina', name: 'Melina', lang: 'el-GR', localService: true, default: false}
+80
+: 
+SpeechSynthesisVoice {voiceURI: 'Milena', name: 'Milena', lang: 'ru-RU', localService: true, default: false}
+81
+: 
+SpeechSynthesisVoice {voiceURI: 'Moira', name: 'Moira', lang: 'en-IE', localService: true, default: false}
+82
+: 
+SpeechSynthesisVoice {voiceURI: 'Mónica', name: 'Mónica', lang: 'es-ES', localService: true, default: false}
+83
+: 
+SpeechSynthesisVoice {voiceURI: 'Montse', name: 'Montse', lang: 'ca-ES', localService: true, default: false}
+84
+: 
+SpeechSynthesisVoice {voiceURI: 'Nora', name: 'Nora', lang: 'nb-NO', localService: true, default: false}
+85
+: 
+SpeechSynthesisVoice {voiceURI: 'Organ', name: 'Organ', lang: 'en-US', localService: true, default: false}
+86
+: 
+SpeechSynthesisVoice {voiceURI: 'Paulina', name: 'Paulina', lang: 'es-MX', localService: true, default: false}
+87
+: 
+SpeechSynthesisVoice {voiceURI: 'Superstar', name: 'Superstar', lang: 'en-US', localService: true, default: false}
+88
+: 
+SpeechSynthesisVoice {voiceURI: 'Ralph', name: 'Ralph', lang: 'en-US', localService: true, default: false}
+89
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (German (Germany))', name: 'Reed (German (Germany))', lang: 'de-DE', localService: true, default: false}
+90
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (English (UK))', name: 'Reed (English (UK))', lang: 'en-GB', localService: true, default: false}
+91
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (English (US))', name: 'Reed (English (US))', lang: 'en-US', localService: true, default: false}
+92
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (Spanish (Spain))', name: 'Reed (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+93
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (Spanish (Mexico))', name: 'Reed (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+94
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (Finnish (Finland))', name: 'Reed (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+95
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (French (Canada))', name: 'Reed (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+96
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (Italian (Italy))', name: 'Reed (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+97
+: 
+SpeechSynthesisVoice {voiceURI: 'Reed (Portuguese (Brazil))', name: 'Reed (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+98
+: 
+SpeechSynthesisVoice {voiceURI: 'Rishi', name: 'Rishi', lang: 'en-IN', localService: true, default: false}
+99
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (German (Germany))', name: 'Rocko (German (Germany))', lang: 'de-DE', localService: true, default: false}
+100
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (English (UK))', name: 'Rocko (English (UK))', lang: 'en-GB', localService: true, default: false}
+101
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (English (US))', name: 'Rocko (English (US))', lang: 'en-US', localService: true, default: false}
+102
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (Spanish (Spain))', name: 'Rocko (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+103
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (Spanish (Mexico))', name: 'Rocko (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+104
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (Finnish (Finland))', name: 'Rocko (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+105
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (French (Canada))', name: 'Rocko (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+106
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (French (France))', name: 'Rocko (French (France))', lang: 'fr-FR', localService: true, default: false}
+107
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (Italian (Italy))', name: 'Rocko (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+108
+: 
+SpeechSynthesisVoice {voiceURI: 'Rocko (Portuguese (Brazil))', name: 'Rocko (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+109
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (German (Germany))', name: 'Sandy (German (Germany))', lang: 'de-DE', localService: true, default: false}
+110
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (English (UK))', name: 'Sandy (English (UK))', lang: 'en-GB', localService: true, default: false}
+111
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (English (US))', name: 'Sandy (English (US))', lang: 'en-US', localService: true, default: false}
+112
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (Spanish (Spain))', name: 'Sandy (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+113
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (Spanish (Mexico))', name: 'Sandy (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+114
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (Finnish (Finland))', name: 'Sandy (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+115
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (French (Canada))', name: 'Sandy (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+116
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (French (France))', name: 'Sandy (French (France))', lang: 'fr-FR', localService: true, default: false}
+117
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (Italian (Italy))', name: 'Sandy (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+118
+: 
+SpeechSynthesisVoice {voiceURI: 'Sandy (Portuguese (Brazil))', name: 'Sandy (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+119
+: 
+SpeechSynthesisVoice {voiceURI: 'Sara', name: 'Sara', lang: 'da-DK', localService: true, default: false}
+120
+: 
+SpeechSynthesisVoice {voiceURI: 'Satu', name: 'Satu', lang: 'fi-FI', localService: true, default: false}
+121
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (German (Germany))', name: 'Shelley (German (Germany))', lang: 'de-DE', localService: true, default: false}
+122
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (English (UK))', name: 'Shelley (English (UK))', lang: 'en-GB', localService: true, default: false}
+123
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (English (US))', name: 'Shelley (English (US))', lang: 'en-US', localService: true, default: false}
+124
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (Spanish (Spain))', name: 'Shelley (Spanish (Spain))', lang: 'es-ES', localService: true, default: false}
+125
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (Spanish (Mexico))', name: 'Shelley (Spanish (Mexico))', lang: 'es-MX', localService: true, default: false}
+126
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (Finnish (Finland))', name: 'Shelley (Finnish (Finland))', lang: 'fi-FI', localService: true, default: false}
+127
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (French (Canada))', name: 'Shelley (French (Canada))', lang: 'fr-CA', localService: true, default: false}
+128
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (French (France))', name: 'Shelley (French (France))', lang: 'fr-FR', localService: true, default: false}
+129
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (Italian (Italy))', name: 'Shelley (Italian (Italy))', lang: 'it-IT', localService: true, default: false}
+130
+: 
+SpeechSynthesisVoice {voiceURI: 'Shelley (Portuguese (Brazil))', name: 'Shelley (Portuguese (Brazil))', lang: 'pt-BR', localService: true, default: false}
+131
+: 
+SpeechSynthesisVoice {voiceURI: 'Sinji', name: 'Sinji', lang: 'zh-HK', localService: true, default: false}
+132
+: 
+SpeechSynthesisVoice {voiceURI: 'Tessa', name: 'Tessa', lang: 'en-ZA', localService: true, default: false}
+133
+: 
+SpeechSynthesisVoice {voiceURI: 'Thomas', name: 'Thomas', lang: 'fr-FR', localService: true, default: false}
+134
+: 
+SpeechSynthesisVoice {voiceURI: 'Tingting', name: 'Tingting', lang: 'zh-CN', localService: true, default: false}
+135
+: 
+SpeechSynthesisVoice {voiceURI: 'Trinoids', name: 'Trinoids', lang: 'en-US', localService: true, default: false}
+136
+: 
+SpeechSynthesisVoice {voiceURI: 'Whisper', name: 'Whisper', lang: 'en-US', localService: true, default: false}
+137
+: 
+SpeechSynthesisVoice {voiceURI: 'Xander', name: 'Xander', lang: 'nl-NL', localService: true, default: false}
+138
+: 
+SpeechSynthesisVoice {voiceURI: 'Yelda', name: 'Yelda', lang: 'tr-TR', localService: true, default: false}
+139
+: 
+SpeechSynthesisVoice {voiceURI: 'Yuna', name: 'Yuna', lang: 'ko-KR', localService: true, default: false}
+140
+: 
+SpeechSynthesisVoice {voiceURI: 'Zarvox', name: 'Zarvox', lang: 'en-US', localService: true, default: false}
+141
+: 
+SpeechSynthesisVoice {voiceURI: 'Zosia', name: 'Zosia', lang: 'pl-PL', localService: true, default: false}
+142
+: 
+SpeechSynthesisVoice {voiceURI: 'Zuzana', name: 'Zuzana', lang: 'cs-CZ', localService: true, default: false}
