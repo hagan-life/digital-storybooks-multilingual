@@ -12,21 +12,29 @@ import languageIcon from '../images/language_color_128.png'
 //import image1 from '../images/testbooktemplate/placeholder_image_left.png'
 //import image2 from '../images/testbooktemplate/placeholder_image_right.png'
 //import image3 from '../images/testbooktemplate/placeholder_full_test.png'
-import image_page_1 from '../images/testbooktemplate/0001.jpg'
-import image_page_2 from '../images/testbooktemplate/0002.jpg'
-import image_page_3 from '../images/testbooktemplate/0003.jpg'
-import image_page_4 from '../images/testbooktemplate/0004.jpg'
-import image_page_5 from '../images/testbooktemplate/0005.jpg'
-//import image_page_6 from '../images/testbooktemplate/0006.jpg'
-import image_page_6a from '../images/testbooktemplate/0006a.jpg'
-import image_page_7 from '../images/testbooktemplate/0007.jpg'
-//import image_page_8 from '../images/testbooktemplate/0008.jpg'
-import image_page_8a from '../images/testbooktemplate/0008a.jpg'
-import image_page_9 from '../images/testbooktemplate/0009.jpg'
-import image_page_10 from '../images/testbooktemplate/0010.jpg'
-import image_page_11 from '../images/testbooktemplate/0011.jpg'
-import image_page_12 from '../images/testbooktemplate/0012.jpg'
-import image_page_13 from '../images/testbooktemplate/0013.jpg'
+import image_page_1x512 from '../images/testbooktemplate/0001x512.jpg'
+import image_page_1x1024 from '../images/testbooktemplate/0001x1024.jpg'
+import image_page_2x2048 from '../images/testbooktemplate/0002x2048.jpg'
+import image_page_3x512 from '../images/testbooktemplate/0003x512.jpg'
+import image_page_3x1024 from '../images/testbooktemplate/0003x1024.jpg'
+import image_page_4x512 from '../images/testbooktemplate/0004x512.jpg'
+import image_page_4x1024 from '../images/testbooktemplate/0004x1024.jpg'
+import image_page_5x512 from '../images/testbooktemplate/0005x512.jpg'
+import image_page_5x1024 from '../images/testbooktemplate/0005x1024.jpg'
+import image_page_6x512 from '../images/testbooktemplate/0006x512.jpg'
+import image_page_6x1024 from '../images/testbooktemplate/0006x1024.jpg'
+import image_page_7x512 from '../images/testbooktemplate/0007x512.jpg'
+import image_page_7x1024 from '../images/testbooktemplate/0007x1024.jpg'
+import image_page_8x2048 from '../images/testbooktemplate/0008x2048.jpg'
+import image_page_9x512 from '../images/testbooktemplate/0009x512.jpg'
+import image_page_9x1024 from '../images/testbooktemplate/0009x1024.jpg'
+import image_page_10x512 from '../images/testbooktemplate/0010x512.jpg'
+import image_page_10x1024 from '../images/testbooktemplate/0010x1024.jpg'
+import image_page_11x512 from '../images/testbooktemplate/0011x512.jpg'
+import image_page_11x1024 from '../images/testbooktemplate/0011x1024.jpg'
+import image_page_12x2048 from '../images/testbooktemplate/0012x2048.jpg'
+import image_page_13x512 from '../images/testbooktemplate/0013x512.jpg'
+import image_page_13x1024 from '../images/testbooktemplate/0013x1024.jpg'
 import pointLeft from '../images/chevron_left_solid_128.png'
 import pointRight from '../images/chevron_right_solid_128.png'
 /*import talkie from '../images/smilecreature.png';*/
@@ -108,7 +116,7 @@ function TestBookTemplate() {
         break
       case 1:
         pageElements = 
-        <ImageLeft image={image_page_1} 
+        <ImageLeft image={image_page_1x512} 
                   text='Once upon a time, there was a little bird named Max.' 
                   say='Once upon a time, there was a little bird named Max.'
                   spoken={english_11_adam_1}
@@ -117,7 +125,7 @@ function TestBookTemplate() {
         break
       case 101: /* Spanish case 101*/
         pageElements = 
-        <ImageLeft image={image_page_1} 
+        <ImageLeft image={image_page_1x1024} 
                   text='Había una vez un pajarito llamado Max.' 
                   say='Había una vez un pajarito llamado Max.'
                   spoken={spanish_polly_lupe_101}
@@ -125,7 +133,7 @@ function TestBookTemplate() {
         break
       case 201:
         pageElements = 
-        <ImageLeft  image={image_page_1} 
+        <ImageLeft  image={image_page_1x512} 
                     text='Once upon a time, there was a little bird named Max.' 
                     say='Once upon a time, there was a little bird named Max.'
                     spoken={english_polly_1}
@@ -133,7 +141,7 @@ function TestBookTemplate() {
         break
       case 2:
         pageElements = 
-        <ImageFull image={image_page_2} 
+        <ImageFull image={image_page_2x2048} 
                     text='Max loved to fly high in the sky and explore the world around him.' 
                     say='Max loved to fly high in the sky and explore the world around him.'
                     spoken={english_11_adam_2}
@@ -141,7 +149,7 @@ function TestBookTemplate() {
         break
       case 102: /* Spanish case 102*/
         pageElements = 
-        <ImageFull image={image_page_2} 
+        <ImageFull image={image_page_2x2048} 
                     text='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.' 
                     say='A Max le encantaba volar alto en el cielo y explorar el mundo que lo rodeaba.'
                     spoken={spanish_polly_lupe_102}
@@ -149,7 +157,7 @@ function TestBookTemplate() {
         break
       case 202:
         pageElements = 
-        <ImageFull  image={image_page_2} 
+        <ImageFull  image={image_page_2x2048} 
                     text='Max loved to fly high in the sky and explore the world around him.' 
                     say='Max loved to fly high in the sky and explore the world around him.'
                     spoken={english_polly_2}
@@ -157,7 +165,7 @@ function TestBookTemplate() {
         break
       case 3:
         pageElements = 
-        <ImageLeft image={image_page_3} 
+        <ImageLeft image={image_page_3x512} 
                     text='One day, Max decided to fly to a nearby tree to rest his tired wings.' 
                     say='One day, Max decided to fly to a nearby tree to rest his tired wings.'
                     spoken={english_11_adam_3}
@@ -165,7 +173,7 @@ function TestBookTemplate() {
         break
       case 103: /* Spanish case 103*/
         pageElements = 
-        <ImageLeft image={image_page_3} 
+        <ImageLeft image={image_page_3x1024} 
                     text='Un día, Max decidió volar hacia un árbol cercano para descansar sus cansadas alas.' 
                     say='Un día, Max decidió volar hacia un árbol cercano para descansar sus cansadas alas.'
                     spoken={spanish_polly_lupe_103}
@@ -173,7 +181,7 @@ function TestBookTemplate() {
         break
       case 203:
         pageElements = 
-        <ImageLeft  image={image_page_3} 
+        <ImageLeft  image={image_page_3x512} 
                     text='One day, Max decided to fly to a nearby tree to rest his tired wings.' 
                     say='One day, Max decided to fly to a nearby tree to rest his tired wings.'
                     spoken={english_polly_3}
@@ -181,7 +189,7 @@ function TestBookTemplate() {
         break
       case 4:
         pageElements = 
-        <ImageLeft image={image_page_4} 
+        <ImageLeft image={image_page_4x512} 
                     text='As he landed on a branch, he saw a little squirrel named Sammy.' 
                     say='As he landed on a branch, he saw a little squirrel named Sammy.'
                     spoken={english_11_adam_4}
@@ -189,7 +197,7 @@ function TestBookTemplate() {
         break
       case 104: /* Spanish case 104*/
         pageElements = 
-        <ImageLeft image={image_page_4} 
+        <ImageLeft image={image_page_4x1024} 
                     text='Cuando aterrizó en una rama, vio a una ardilla pequeña llamada Sammy.' 
                     say='Cuando aterrizó en una rama, vio a una ardilla pequeña llamada Sammy.'
                     spoken={spanish_polly_lupe_104}
@@ -197,7 +205,7 @@ function TestBookTemplate() {
         break
       case 204:
         pageElements = 
-        <ImageLeft  image={image_page_4} 
+        <ImageLeft  image={image_page_4x512} 
                     text='As he landed on a branch, he saw a little squirrel named Sammy.' 
                     say='As he landed on a branch, he saw a little squirrel named Sammy.'
                     spoken={english_polly_4}
@@ -205,7 +213,7 @@ function TestBookTemplate() {
         break
       case 5:
         pageElements = 
-        <ImageRight image={image_page_5} 
+        <ImageRight image={image_page_5x512} 
                     text='Sammy was looking for his acorns that he had hidden around the tree.' 
                     say='Sammy was looking for his acorns that he had hidden around the tree.'
                     spoken={english_11_adam_5}
@@ -213,7 +221,7 @@ function TestBookTemplate() {
         break
       case 105: /* Spanish case 105*/
         pageElements = 
-        <ImageRight image={image_page_5} 
+        <ImageRight image={image_page_5x1024} 
                     text='Sammy estaba buscando sus bellotas que había escondido alrededor del árbol.' 
                     say='Sammy estaba buscando sus bellotas que había escondido alrededor del árbol.'
                     spoken={spanish_polly_lupe_105}
@@ -221,7 +229,7 @@ function TestBookTemplate() {
         break
       case 205:
         pageElements = 
-        <ImageRight  image={image_page_5} 
+        <ImageRight  image={image_page_5x512} 
                     text='Sammy was looking for his acorns that he had hidden around the tree.' 
                     say='Sammy was looking for his acorns that he had hidden around the tree.'
                     spoken={english_polly_5}
@@ -229,7 +237,7 @@ function TestBookTemplate() {
         break
       case 6:
         pageElements = 
-        <ImageLeft image={image_page_6a} 
+        <ImageLeft image={image_page_6x512} 
                     text='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"' 
                     say='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"'
                     spoken={english_11_adam_6}
@@ -237,7 +245,7 @@ function TestBookTemplate() {
         break
       case 106: /* Spanish case 106*/
         pageElements = 
-        <ImageLeft image={image_page_6a} 
+        <ImageLeft image={image_page_6x1024} 
                     text='"Hola Sammy," trinó Max. "¿Necesitas ayuda para encontrar tus bellotas?"' 
                     say='"Hola Sammy," trinó Max. "¿Necesitas ayuda para encontrar tus bellotas?"'
                     spoken={spanish_polly_lupe_106}
@@ -245,7 +253,7 @@ function TestBookTemplate() {
         break
       case 206:
           pageElements = 
-          <ImageLeft  image={image_page_6a} 
+          <ImageLeft  image={image_page_6x512} 
                       text='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"' 
                       say='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"'
                       spoken={english_polly_6}
@@ -253,7 +261,7 @@ function TestBookTemplate() {
           break
       case 7:
         pageElements = 
-        <ImageLeft image={image_page_7} 
+        <ImageLeft image={image_page_7x512} 
                     text='"Yes please," Sammy replied. "I&apos;ve looked everywhere and I can&apos;t find them.”' 
                     say='"Yes please," Sammy replied. "I&apos;ve looked everywhere and I can&apos;t find them.”'
                     spoken={english_11_adam_7}
@@ -261,7 +269,7 @@ function TestBookTemplate() {
         break
       case 107: /* Spanish case 107*/
         pageElements = 
-        <ImageLeft image={image_page_7} 
+        <ImageLeft image={image_page_7x1024} 
                     text='"Sí, por favor," respondió Sammy. "He buscado por todas partes y no puedo encontrarlas."' 
                     say='"Sí, por favor," respondió Sammy. "He buscado por todas partes y no puedo encontrarlas."'
                     spoken={spanish_polly_lupe_107}
@@ -269,7 +277,7 @@ function TestBookTemplate() {
         break
       case 8:
         pageElements = 
-        <ImageFull image={image_page_8a} 
+        <ImageFull image={image_page_8x2048} 
                     text='Max flew around the tree, searching high and low, until he found all of Sammy&apos;s acorns.' 
                     say='Max flew around the tree, searching high and low, until he found all of Sammy&apos;s acorns.'
                     spoken={english_11_adam_8}
@@ -277,7 +285,7 @@ function TestBookTemplate() {
         break
       case 108: /* Spanish case 108*/
         pageElements = 
-        <ImageFull image={image_page_8a} 
+        <ImageFull image={image_page_8x2048} 
                     text='Max voló alrededor del árbol, buscando arriba y abajo, hasta que encontró todas las bellotas de Sammy.' 
                     say='Max voló alrededor del árbol, buscando arriba y abajo, hasta que encontró todas las bellotas de Sammy.'
                     spoken={spanish_polly_lupe_108}
@@ -285,7 +293,7 @@ function TestBookTemplate() {
         break
       case 9:
         pageElements = 
-        <ImageLeft image={image_page_9} 
+        <ImageLeft image={image_page_9x512} 
                     text='"Here they are!" Max said proudly.' 
                     say='"Here they are!" Max said proudly.'
                     spoken={english_11_adam_9}
@@ -293,7 +301,7 @@ function TestBookTemplate() {
         break
       case 109: /* Spanish case 109*/
         pageElements = 
-        <ImageLeft image={image_page_9} 
+        <ImageLeft image={image_page_9x1024} 
                     text='"¡Aquí están!" dijo Max con orgullo.' 
                     say='"¡Aquí están!" dijo Max con orgullo.'
                     spoken={spanish_polly_lupe_109}
@@ -301,7 +309,7 @@ function TestBookTemplate() {
         break
       case 10:
         pageElements = 
-        <ImageRight image={image_page_10} 
+        <ImageRight image={image_page_10x512} 
                     text='Sammy was so happy that he gave Max a big hug.' 
                     say='Sammy was so happy that he gave Max a big hug.'
                     spoken={english_11_adam_10}
@@ -309,7 +317,7 @@ function TestBookTemplate() {
         break
       case 110: /* Spanish case 110*/
         pageElements = 
-        <ImageRight image={image_page_10} 
+        <ImageRight image={image_page_10x1024} 
                     text='Sammy estaba tan feliz que le dio un gran abrazo a Max.' 
                     say='Sammy estaba tan feliz que le dio un gran abrazo a Max.'
                     spoken={spanish_polly_lupe_110}
@@ -317,7 +325,7 @@ function TestBookTemplate() {
         break
       case 11:
         pageElements = 
-        <ImageLeft image={image_page_11} 
+        <ImageLeft image={image_page_11x512} 
                     text='Thank you, Max! You&apos;re the best friend a squirrel could ever have.' 
                     say='Thank you, Max! You&apos;re the best friend a squirrel could ever have.'
                     spoken={english_11_adam_11}
@@ -325,7 +333,7 @@ function TestBookTemplate() {
         break
       case 111: /* Spanish case 111*/
         pageElements = 
-        <ImageLeft image={image_page_11} 
+        <ImageLeft image={image_page_11x1024} 
                     text='"¡Gracias, Max! Eres el mejor amigo que una ardilla podría tener", dijo Sammy.' 
                     say='"¡Gracias, Max! Eres el mejor amigo que una ardilla podría tener", dijo Sammy.'
                     spoken={spanish_polly_lupe_111}
@@ -333,7 +341,7 @@ function TestBookTemplate() {
         break
       case 12:
         pageElements = 
-        <ImageFull image={image_page_12} 
+        <ImageFull image={image_page_12x2048} 
                     text='From that day on, Max and Sammy became the best of friends.' 
                     say='From that day on, Max and Sammy became the best of friends.'
                     spoken={english_11_adam_12}
@@ -341,7 +349,7 @@ function TestBookTemplate() {
         break
       case 112: /* Spanish case 112*/
         pageElements = 
-        <ImageFull image={image_page_12} 
+        <ImageFull image={image_page_12x2048} 
                     text='A partir de ese día, Max y Sammy se convirtieron en los mejores amigos.' 
                     say='A partir de ese día, Max y Sammy se convirtieron en los mejores amigos.'
                     spoken={spanish_polly_lupe_112}
@@ -349,7 +357,7 @@ function TestBookTemplate() {
         break
       case 13:
         pageElements = 
-        <ImageLeft image={image_page_13} 
+        <ImageLeft image={image_page_13x512} 
                     text='The End' 
                     say='The End'
                     spoken={english_11_adam_13}
@@ -357,7 +365,7 @@ function TestBookTemplate() {
         break
       case 113: /* Spanish case 113*/
         pageElements = 
-        <ImageLeft image={image_page_13} 
+        <ImageLeft image={image_page_13x1024} 
                     text='El Fin' 
                     say='El Fin'
                     spoken={spanish_polly_lupe_113}

@@ -48,7 +48,7 @@ function Login() {
             </div>
             {/*Prototype, Login button passes to Library without auth */}
             <Link to="/library">
-              <button className="login-button">Log in</button>
+              <button className="login-button">Login</button>
             </Link>
             <Link to="/qr">
               <button className="login-qr">
