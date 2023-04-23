@@ -116,7 +116,7 @@ function TestBookTemplate() {
         break
       case 1:
         pageElements = 
-        <ImageLeft image={image_page_1x512} 
+        <ImageLeft image={image_page_1x1024} 
                   text='Once upon a time, there was a little bird named Max.' 
                   say='Once upon a time, there was a little bird named Max.'
                   spoken={english_11_adam_1}
@@ -133,7 +133,7 @@ function TestBookTemplate() {
         break
       case 201:
         pageElements = 
-        <ImageLeft  image={image_page_1x512} 
+        <ImageLeft  image={image_page_1x1024} 
                     text='Once upon a time, there was a little bird named Max.' 
                     say='Once upon a time, there was a little bird named Max.'
                     spoken={english_polly_1}
@@ -165,7 +165,7 @@ function TestBookTemplate() {
         break
       case 3:
         pageElements = 
-        <ImageLeft image={image_page_3x512} 
+        <ImageLeft image={image_page_3x1024} 
                     text='One day, Max decided to fly to a nearby tree to rest his tired wings.' 
                     say='One day, Max decided to fly to a nearby tree to rest his tired wings.'
                     spoken={english_11_adam_3}
@@ -181,7 +181,7 @@ function TestBookTemplate() {
         break
       case 203:
         pageElements = 
-        <ImageLeft  image={image_page_3x512} 
+        <ImageLeft  image={image_page_3x1024} 
                     text='One day, Max decided to fly to a nearby tree to rest his tired wings.' 
                     say='One day, Max decided to fly to a nearby tree to rest his tired wings.'
                     spoken={english_polly_3}
@@ -189,7 +189,7 @@ function TestBookTemplate() {
         break
       case 4:
         pageElements = 
-        <ImageLeft image={image_page_4x512} 
+        <ImageLeft image={image_page_4x1024} 
                     text='As he landed on a branch, he saw a little squirrel named Sammy.' 
                     say='As he landed on a branch, he saw a little squirrel named Sammy.'
                     spoken={english_11_adam_4}
@@ -205,7 +205,7 @@ function TestBookTemplate() {
         break
       case 204:
         pageElements = 
-        <ImageLeft  image={image_page_4x512} 
+        <ImageLeft  image={image_page_4x1024} 
                     text='As he landed on a branch, he saw a little squirrel named Sammy.' 
                     say='As he landed on a branch, he saw a little squirrel named Sammy.'
                     spoken={english_polly_4}
@@ -213,7 +213,7 @@ function TestBookTemplate() {
         break
       case 5:
         pageElements = 
-        <ImageRight image={image_page_5x512} 
+        <ImageRight image={image_page_5x1024} 
                     text='Sammy was looking for his acorns that he had hidden around the tree.' 
                     say='Sammy was looking for his acorns that he had hidden around the tree.'
                     spoken={english_11_adam_5}
@@ -229,7 +229,7 @@ function TestBookTemplate() {
         break
       case 205:
         pageElements = 
-        <ImageRight  image={image_page_5x512} 
+        <ImageRight  image={image_page_5x1024} 
                     text='Sammy was looking for his acorns that he had hidden around the tree.' 
                     say='Sammy was looking for his acorns that he had hidden around the tree.'
                     spoken={english_polly_5}
@@ -237,7 +237,7 @@ function TestBookTemplate() {
         break
       case 6:
         pageElements = 
-        <ImageLeft image={image_page_6x512} 
+        <ImageLeft image={image_page_6x1024} 
                     text='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"' 
                     say='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"'
                     spoken={english_11_adam_6}
@@ -253,7 +253,7 @@ function TestBookTemplate() {
         break
       case 206:
           pageElements = 
-          <ImageLeft  image={image_page_6x512} 
+          <ImageLeft  image={image_page_6x1024} 
                       text='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"' 
                       say='"Hi Sammy," Max chirped. "Do you need help finding your acorns?"'
                       spoken={english_polly_6}
@@ -261,7 +261,7 @@ function TestBookTemplate() {
           break
       case 7:
         pageElements = 
-        <ImageLeft image={image_page_7x512} 
+        <ImageLeft image={image_page_7x1024} 
                     text='"Yes please," Sammy replied. "I&apos;ve looked everywhere and I can&apos;t find them.”' 
                     say='"Yes please," Sammy replied. "I&apos;ve looked everywhere and I can&apos;t find them.”'
                     spoken={english_11_adam_7}
@@ -293,7 +293,7 @@ function TestBookTemplate() {
         break
       case 9:
         pageElements = 
-        <ImageLeft image={image_page_9x512} 
+        <ImageLeft image={image_page_9x1024} 
                     text='"Here they are!" Max said proudly.' 
                     say='"Here they are!" Max said proudly.'
                     spoken={english_11_adam_9}
@@ -309,7 +309,7 @@ function TestBookTemplate() {
         break
       case 10:
         pageElements = 
-        <ImageRight image={image_page_10x512} 
+        <ImageRight image={image_page_10x1024} 
                     text='Sammy was so happy that he gave Max a big hug.' 
                     say='Sammy was so happy that he gave Max a big hug.'
                     spoken={english_11_adam_10}
@@ -325,7 +325,7 @@ function TestBookTemplate() {
         break
       case 11:
         pageElements = 
-        <ImageLeft image={image_page_11x512} 
+        <ImageLeft image={image_page_11x1024} 
                     text='Thank you, Max! You&apos;re the best friend a squirrel could ever have.' 
                     say='Thank you, Max! You&apos;re the best friend a squirrel could ever have.'
                     spoken={english_11_adam_11}
@@ -357,7 +357,7 @@ function TestBookTemplate() {
         break
       case 13:
         pageElements = 
-        <ImageLeft image={image_page_13x512} 
+        <ImageLeft image={image_page_13x1024} 
                     text='The End' 
                     say='The End'
                     spoken={english_11_adam_13}
