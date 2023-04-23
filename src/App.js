@@ -5,6 +5,7 @@ import Login from './components/Login'
 import Library from './components/Library'
 import Max from './components/Max'
 import TestBookTemplate from './components/TestBookTemplate'
+import BookTemplate from './components/BookTemplate'
 import FourOFour from './components/FourOFour'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/library" element={ <Library /> } />
             <Route path="/max" element={ <Max /> } />
             <Route path="/testbooktemplate" element={ <TestBookTemplate /> } />
+            <Route path="/booktemplate" element={ <BookTemplate /> } />
 
             <Route path="*" element={<FourOFour />} />
 

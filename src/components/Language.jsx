@@ -1,8 +1,13 @@
 
 
 function Language({languages, currentPage, passSetPage, passSetChangeLanguage, passSetLanguage}) {
-  let basePage = currentPage % 10
-
+  const currentPageArray = Array.from(String(currentPage).padStart(2, '0'), Number)
+  const reverse = currentPageArray.reverse()
+  const ones = reverse[0]
+  const tens = reverse[1]
+  const basePageString = `${tens}${ones}`
+  const basePage = parseInt(basePageString, 10)
+  
   return(
     <div className="language">
         <div key='english'

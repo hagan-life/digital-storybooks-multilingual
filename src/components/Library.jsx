@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 import home from '../images/home.png'
 import cover_max from '../images/max/cover_max.png'
 import cover_test from '../images/testbooktemplate/cover_test.png'
+import cover_template from '../images/booktemplate/cover.jpg'
 
 function Library() {
   return(
@@ -44,6 +45,12 @@ function Library() {
 
           <Link to="/testbooktemplate">
             <img className="cover" src={cover_test} alt="Test book cover placeholder" />
+            <div className="book">  
+            </div>
+          </Link>
+
+          <Link to="/booktemplate">
+            <img className="cover" src={cover_template} alt="Book cover placeholder" />
             <div className="book">  
             </div>
           </Link>

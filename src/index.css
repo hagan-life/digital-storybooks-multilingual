@@ -465,11 +465,13 @@ li{
 .left{
   flex:auto;
   object-fit:cover;
+  width:50vw;
 }
 
 .right{
   flex:auto;
   object-fit:cover;
+  width:50vw;
 }
 
 .background{
