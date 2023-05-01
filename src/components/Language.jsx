@@ -24,6 +24,7 @@ function Language({languages, currentPage, passSetPage, passSetChangeLanguage, p
             passSetLanguage('es-ES')
           }}>Spanish
         </div>
+        {/*
         <div key='polly'
           onClick={() => {
             passSetPage(basePage + 200)
@@ -31,6 +32,7 @@ function Language({languages, currentPage, passSetPage, passSetChangeLanguage, p
             passSetLanguage('es-ES')
           }}>AWS Polly
         </div>
+        */}
         
       {/*
       {languages.map(language => {
